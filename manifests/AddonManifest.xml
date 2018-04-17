@@ -11,11 +11,11 @@
                description="Provisions Kubernetes volumes">
     <properties>
         <property key="Namespace" displayName="Kubernetes Namespace" />
-		<property key="StorageClass" displayName="Storage Class" />
+        <property key="StorageClass" displayName="Storage Class" />
         <property key="Certificate" displayName="Certificate File (optional)" />
         <property key="Password" displayName="Certificate Password (optional)" isEncrypted="true" />
     </properties>
     <parameters>
-		<parameter key="VolumeSize" displayName="Volume Size" isRequired="true" description="The size of the volume to allocate in Kubernetes quantity notation (e.g. 100Gi)" />
+        <parameter key="VolumeSize" displayName="Volume Size" isRequired="true" description="The size of the volume to allocate in Kubernetes quantity notation (e.g. 100Gi)" />
     </parameters>
 </addonManifest>
