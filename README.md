@@ -1,5 +1,5 @@
 # Kubernetes Volume Add-on
-This add-on provisions Kubernetes volumes for us by Kubernetes workloads.
+This add-on provisions Kubernetes volumes for use by Kubernetes workloads.
 
 ## Prerequisites
 * Version 9.1 of Apprenda or greater.
