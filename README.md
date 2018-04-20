@@ -14,10 +14,10 @@ This add-on provisions Kubernetes volumes for use by Kubernetes workloads.
           resturl: "http://10.1.7.83:8080"
 
 ## Installation
-*If using basic auth for your Kubernetes API server, skip step 1.*
+*If using basic auth for your Kubernetes API server, skip step 1. The compiled add-on can be found under [releases](https://github.com/apprenda/Kubernetes-Volume-Addon/releases).*
 
-1. Unzip ```KubernetesVolumeAddon-1.0.0.zip```, add a Kubernetes API server client certificate (.pfx) to the archive, and re-zip the archive.
-2. Use the SOC to create a new add-on with ```KubernetesVolumeAddon-1.0.0.zip``` found under [releases](https://github.com/apprenda/Kubernetes-Volume-Addon/releases).
+1. Unzip ```addon.zip```, add a Kubernetes API server client certificate (.pfx) to the archive, and re-zip the archive.
+2. Use the SOC to create a new add-on with ```addon.zip```.
 3. Edit the add-on configuration.
     * Edit the description to include the type of storage the add-on will provision.
     * Set ```Location``` to the URL of the Kubernetes API server (the same URL as the one used to add the Kubernetes cluster to Apprenda) that hosts the storage you would like to provide.
